@@ -1,36 +1,59 @@
-# Data Science, Machine Learning & Data Analytics Projects Portfolio
+# 📊 Data Science, Machine Learning & Analytics Portfolio
 
-This repository brings together my work in Data Science, Machine Learning, and Data Analytics. The projects are organized by difficulty level and demonstrate my approach to solving real-world problems through data exploration, visualization, statistical analysis, predictive modeling, and business intelligence. Each project reflects a step in my continuous learning and practical application of data-driven techniques.
+Welcome to my portfolio! I am passionate about transforming raw data into actionable insights and building intelligent systems that solve real-world business problems. This repository showcases my technical skills and project experience across various domains of data science, predictive modeling, and business intelligence.
 
-## 🌱 Beginner Level
+## 🛠️ Skills & Technologies
 
-* **[Predictive Modeling for Demographic Classification](Beginner_Level/Gender_Classification/README.md)**  
-  * **Description:** Predictive Modeling for Gender Classification.  
-  * **Objective:** Build a classifier to predict an individual's gender based on three physical attributes (height, weight, and age).  
-  * **Highlights:** Covers a complete machine learning pipeline - from Exploratory Data Analysis (EDA) and preprocessing to evaluating and contrasting the performance of Logistic Regression, Decision Trees, Random Forests, and K-Nearest Neighbors (KNN).
+* **Programming & Data Manipulation:** Python, Pandas, NumPy
+* **Machine Learning:** scikit-learn, scikit-surprise, Logistic Regression, Random Forests, Decision Trees, KNN
+* **Time Series Analysis:** ARIMA, SARIMA, Exponential Smoothing
+* **Data Visualization & BI:** Matplotlib, Seaborn, Power BI, DAX, Power Query
+* **Techniques:** Exploratory Data Analysis (EDA), Predictive Modeling, Recommendation Systems (Content-Based, Collaborative Filtering, Matrix Factorization), TF-IDF Vectorization
 
-* **[Exploratory Data Analysis of Streaming Media Trends](Beginner_Level/Netflix_Content_Library_Analysis/README.md)**  
-  * **Description:** Exploratory Data Analysis of the Netflix Content Library.  
-  * **Objective:** Perform Exploratory Data Analysis (EDA) on the Netflix dataset to uncover insights regarding content types, regional distributions, genre popularity, and other key trends.  
-  * **Highlights:** Covers data cleaning, feature engineering, and data visualization using Pandas, NumPy, Matplotlib, and Seaborn.
+---
 
-* **[Time Series Forecasting for Aviation Demand Analytics](Beginner_Level/AirPassengers_Time_Series_Forecasting/README.md)**  
-  * **Description:** Time Series Forecasting of Airline Passenger Demand.  
-  * **Objective:** Apply classical time series analysis and forecasting techniques to identify demand trends and seasonal cycles in international airline passenger numbers.  
-  * **Highlights:** Covers data exploration, time series decomposition, stationarity testing, and the building and evaluation of various forecasting models (AR, MA, Exponential Smoothing, ARIMA, SARIMA).
+## 🚀 Featured Projects
 
-## 🎯 Intermediate Level
+### 📈 Business Intelligence & Analytics
 
-* **[Hybrid Recommender System for Personalized Media](Intermediate_Level/Movie_Recommendation_Engine/README.md)**  
-  * **Description:** Hybrid Movie Recommendation Engine utilizing Collaborative and Content-Based Filtering.  
-  * **Objective:** Build a robust recommendation system combining Content-Based and Collaborative Filtering using the MovieLens dataset to suggest highly personalized movies.  
-  * **Highlights:** Employs TF-IDF vectorization, Cosine Similarity, and Matrix Factorization (SVD via scikit-surprise) for an end-to-end machine learning recommendation pipeline.
+**[Interactive Health and Demographic Analytics Dashboard](PowerBI_Dashboards/README.md)**  
+*Analyzed demographic data (height, weight, BMI) across age and gender to identify trends and flag high-risk segments.*
 
-## 🚀 Advanced Level
+* **Highlights:** Built an interactive 2-page Power BI dashboard handling 10,000+ records, utilizing Power Query for data transformation and custom DAX measures for dynamic insights.
 
-## 📊 Data Analysis & BI Dashboards
+### 🤖 Machine Learning & Predictive Modeling
 
-* **[Interactive Health and Demographic Analytics Dashboard](PowerBI_Dashboards/README.md)**  
-  * **Description:** Health Metrics Analytics presented in an Interactive Power BI Dashboard.  
-  * **Objective:** Analyze how body metrics (height, weight, and BMI) vary across gender and age demographics to help design targeted fitness programs and flag high-risk segments.  
-  * **Highlights:** Features an interactive 2-page Power BI dashboard built on a 10,000-record dataset, utilizing Power Query for data transformation and custom DAX measures for dynamic insights.
+**[Hybrid Recommender System for Personalized Media](Intermediate_Level/Movie_Recommendation_Engine/README.md)**  
+*Developed a robust movie recommendation engine using the MovieLens dataset to enhance user engagement through personalized content suggestions.*
+
+* **Highlights:** Combined Content-Based (TF-IDF, Cosine Similarity) and Collaborative Filtering (SVD Matrix Factorization) techniques to mitigate individual model limitations.
+
+**[Predictive Modeling for Demographic Classification](Beginner_Level/Gender_Classification/README.md)**  
+*Built machine learning classifiers to predict an individual's gender based on physical attributes (height, weight, age).*
+
+* **Highlights:** Executed an end-to-end ML pipeline comparing the performance of Logistic Regression, Decision Trees, Random Forests, and K-Nearest Neighbors (KNN).
+
+### ⏳ Time Series & Forecasting
+
+**[Time Series Forecasting for Aviation Demand Analytics](Beginner_Level/AirPassengers_Time_Series_Forecasting/README.md)**  
+*Identified demand trends and seasonal cycles in international airline passenger numbers.*
+
+* **Highlights:** Explored stationarity and decomposed time series to build and evaluate robust forecasting models including AR, MA, Exponential Smoothing, ARIMA, and SARIMA.
+
+### 🔍 Exploratory Data Analysis
+
+**[Exploratory Data Analysis of Streaming Media Trends](Beginner_Level/Netflix_Content_Library_Analysis/README.md)**  
+*Uncovered insights regarding content types, regional distributions, and genre popularity within the Netflix catalog.*
+
+* **Highlights:** Executed comprehensive data cleaning, feature engineering, and visualization using Pandas, Matplotlib, and Seaborn.
+
+---
+
+## 📂 Repository Structure
+
+My continuous learning journey is organized progressively:
+
+* `Beginner_Level/`: Foundational projects focusing on EDA, time series forecasting, and basic ML pipelines.
+* `Intermediate_Level/`: More complex modeling including Hybrid Recommendation Systems.
+* `Advanced_Level/`: (In Progress) Advanced modeling, deep learning, and complex architectures.
+* `PowerBI_Dashboards/`: Interactive business intelligence reporting.
